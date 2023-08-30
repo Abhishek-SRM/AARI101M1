@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<testcases>
+   <testcase doNotExecute="false" expectedAssertion="S" identifier="9" name="T14_IUNMOD1" option="1" syncStatus="C">
+      <object attribute="" library="AJITWRK" name="IUNMOD1" srcFile="" srcMemberName="" srcModuleName="" type="*MODULE"/>
+      <procedure dateformat="" keywords="" name="IUNMOD1" returnArrayDim="0" returnFlag="N" returnedDecimal="0" returnedLength="0" returnedType="" sequence="0">
+         <parameters>
+            <parameter arrDim="0" datalength="1" datatype="P" dateformat="" decimal="1" dslength="0" dsname="" keywords="" likeds="" name="E_NVAR1" number="1" parametersequence="1" qualname="" subfieldnumber="0" subfieldtype="SA"/>
+            <parameter arrDim="0" datalength="1" datatype="P" dateformat="" decimal="1" dslength="0" dsname="" keywords="" likeds="" name="E_NVAR2" number="2" parametersequence="2" qualname="" subfieldnumber="0" subfieldtype="SA"/>
+            <parameter arrDim="0" datalength="5" datatype="P" dateformat="" decimal="0" dslength="0" dsname="" keywords="" likeds="" name="E_NVAR3" number="3" parametersequence="3" qualname="" subfieldnumber="0" subfieldtype="SA"/>
+         </parameters>
+      </procedure>
+      <variables/>
+      <mockVariables/>
+      <steps>
+         <before/>
+         <after/>
+      </steps>
+      <result hour="0" identifier="1" mil="0" min="0" sec="0" status="B">
+         <input><![CDATA[{"E_NVAR1":5.0,"E_NVAR2":5.0,"E_NVAR3":10}]]></input>
+         <output><![CDATA[{"INPUT":{"E_NVAR1":5.0,"E_NVAR2":5.0,"E_NVAR3":10}}]]></output>
+         <compare><![CDATA[{"INPUT":{"E_NVAR1":"*EQ","E_NVAR2":"*EQ","E_NVAR3":"*EQ"}}]]></compare>
+      </result>
+   </testcase>
+</testcases>

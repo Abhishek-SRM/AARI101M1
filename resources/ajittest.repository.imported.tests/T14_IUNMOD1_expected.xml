@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<testcase>
+   <expectedValue_0>{"INPUT":{"E_NVAR1":5.0,"E_NVAR2":5.0,"E_NVAR3":10}}</expectedValue_0>
+</testcase>

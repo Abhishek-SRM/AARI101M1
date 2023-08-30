@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<configuration>
+   <setup connectArcad="true" useRepository="true"/>
+   <servername>arcaddev</servername>
+   <username>akumar</username>
+   <password>bb98c2cbdbda9c1c7485f418a7f89ff1684a3290849e8c</password>
+   <iASP>*SYSBAS</iASP>
+   <ccsid/>
+   <ssl>false</ssl>
+   <codecoveragepath>/home/ArcadiUnit/AjitTest/CCReports/</codecoveragepath>
+   <repository application="" aspname="*SYSTEM" description="" environment="" identifier="1" initializationdate="2023-08-28" initialized="true" lastsynchronizationdate="2023-08-28-09.13.27.901000" name="AjitTest" version="*NONE" versionselected="false">
+      <libraries>
+         <objectlibraries>
+            <objectlibrary name="AJITWRK" order="1"/>
+            <objectlibrary name="IUNDEMO1" order="2"/>
+         </objectlibraries>
+         <sourcelibraries>
+            <sourcelibrary name="AJITWRK" order="1"/>
+            <sourcelibrary name="IUNDEMO1" order="2"/>
+         </sourcelibraries>
+         <executionlibraries>
+            <executionlibrary name="AJITWRK" order="1"/>
+            <executionlibrary name="IUNDEMO1" order="2"/>
+            <executionlibrary name="DEVENWRK" order="3"/>
+            <executionlibrary name="IUNTSTPGM" order="4"/>
+         </executionlibraries>
+      </libraries>
+   </repository>
+</configuration>

@@ -1,0 +1,867 @@
+ 5770SS1 V7R3M0 160422                        Display Job Log                      ARCADDEV  28/08/23  11:58:23 CEST     Page    1  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   523945       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+CPC0904    Ex{cution               00   28/08/23  11:58:22,889430  QWCCCRVC     QSYS        0099     AARI090C1   ARCAD_IUN   *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module de destination . . . :   AARI090C1                                                      
+                                     Proc{dure de destination  . :   AARI090C1                                                      
+                                     Instruction . . . . . . . . :   9200                                                           
+                                     Message . . . . :   Zone de donn{es EXECERR cr{{e dans biblioth}que QTEMP.                     
+CPF9801    Echappement             40   28/08/23  11:58:22,889509  QLICKOBJ     QSYS        0255     AARI090C1   ARCAD_IUN   *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module de destination . . . :   AARI090C1                                                      
+                                     Proc{dure de destination  . :   AARI090C1                                                      
+                                     Instruction . . . . . . . . :   10500                                                          
+                                     Message . . . . :   Objet AARILIBL2 non trouv{ dans la biblioth}que QTEMP.                     
+                                     Cause . . . . . : L'objet AARILIBL2, dans la biblioth}que QTEMP, type *FILE,                   
+                                       n'a pas {t{ trouv{ : le nom de la biblioth}que, le nom ou le type de l'objet                 
+                                       est incorrect.  Si le nom de la biblioth}que n'est pas indiqu{, il se peut                   
+                                       que celle contenant l'objet ne figure pas dans la liste des biblioth}ques.                   
+                                       Que faire . . . : Modifiez le nom de la biblioth}que, le nom ou le type de                   
+                                       l'objet. Si le nom de la biblioth}que n'est pas indiqu{, pr{cisez-le et                      
+                                       renouvelez la demande.                                                                       
+CPI2101    Information             00   28/08/23  11:58:22,920329  QLICRDUP     QSYS        0A2C     AARI090C1   ARCAD_IUN   *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module de destination . . . :   AARI090C1                                                      
+                                     Proc{dure de destination  . :   AARI090C1                                                      
+                                     Instruction . . . . . . . . :   10800                                                          
+                                     Message . . . . :   Objet AARILIBL2 de type *FILE cr{{ dans QTEMP.                             
+CPC2130    Ex{cution               00   28/08/23  11:58:22,920431  QLICRDUP     QSYS        02E7     AARI090C1   ARCAD_IUN   *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module de destination . . . :   AARI090C1                                                      
+                                     Proc{dure de destination  . :   AARI090C1                                                      
+                                     Instruction . . . . . . . . :   10800                                                          
+                                     Message . . . . :   1 objet(s) dupliqu{(s).                                                    
+                                     Cause . . . . . : Tous les objets dont le type est accept{ et indiqu{ dans la                  
+                                       commande CRTDUPOBJ (Cr{er un objet dupliqu{) ont {t{ dupliqu{s. Consultez                    
+                                       les messages de niveau inf{rieur pour savoir si des objets n'ont pas {t{                     
+                                       dupliqu{s.                                                                                   
+CPC7301    Ex{cution               00   28/08/23  11:58:22,933441  QDDCPF       QSYS        056D     AARI096R1   ARCAD_IUN   *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module de destination . . . :   AARI096R1                                                      
+                                     Proc{dure de destination  . :   AARI096R1                                                      
+                                     Instruction . . . . . . . . :   46508                                                          
+                                     Message . . . . :   Fichier QRPGLETMP cr{{ dans la biblioth}que QTEMP.                         
+CPC7305    Ex{cution               00   28/08/23  11:58:22,938523  QDDCPFM      QSYS        005B     AARI096R1   ARCAD_IUN   *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module de destination . . . :   AARI096R1                                                      
+                                     Proc{dure de destination  . :   AARI096R1                                                      
+                                     Instruction . . . . . . . . :   46508                                                          
+                                     Message . . . . :   Membre XIUNMOD2 ajout{ au fichier QRPGLETMP de QTEMP.                      
+CPC7309    Ex{cution               00   28/08/23  11:58:22,946603  QDDDMBR      QSYS        0201     AARI096R1   ARCAD_IUN   *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module de destination . . . :   AARI096R1                                                      
+                                     Proc{dure de destination  . :   AARI096R1                                                      
+                                     Instruction . . . . . . . . :   47608                                                          
+ 5770SS1 V7R3M0 160422                        Display Job Log                      ARCADDEV  28/08/23  11:58:23 CEST     Page    2  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   523945       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                     Message . . . . :   Membre XIUNMOD2 enlev{ du fichier QRPGLETMP de QTEMP.                      
+CPC7305    Ex{cution               00   28/08/23  11:58:22,951429  QDDCPFM      QSYS        005B     AARI096R1   ARCAD_IUN   *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module de destination . . . :   AARI096R1                                                      
+                                     Proc{dure de destination  . :   AARI096R1                                                      
+                                     Instruction . . . . . . . . :   48808                                                          
+                                     Message . . . . :   Membre XIUNMOD2 ajout{ au fichier QRPGLETMP de QTEMP.                      
+CPI4339    Information             00   28/08/23  11:58:22,991357  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QQQAINI                                                        
+                                     Proc{dure d'origine . . . . :   GETMSGTXT                                                      
+                                     Instruction . . . . . . . . :   11299                                                          
+                                     Module de destination . . . :   QQQGINI                                                        
+                                     Proc{dure de destination  . :   QQGETINIOPTIONS                                                
+                                     Instruction . . . . . . . . :   1265                                                           
+                                     Message . . . . :   Options de requête extraites du fichier QAQQINI dans la                    
+                                       biblioth}que QUSRSYS.                                                                        
+                                     Que faire  . . . : Options de requête extraites du fichier QAQQINI dans la                     
+                                       biblioth}que QUSRSYS.                                                                        
+SQL7969    Ex{cution               00   28/08/23  11:58:23,000320  QSQCONN      QSYS        *STMT    QSQROUTE    QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QSQCONN                                                        
+                                     Proc{dure d'origine . . . . :   MESSAGE_IN_JOBLOG                                              
+                                     Instruction . . . . . . . . :   15837                                                          
+                                     Module de destination . . . :   QSQROUTE                                                       
+                                     Proc{dure de destination  . :   IMPLICIT_CONNECT                                               
+                                     Instruction . . . . . . . . :   24970                                                          
+                                     Message . . . . :   CONNECT sur la base de donn{es relationnelle ARCADDEV                      
+                                       ex{cut{e.                                                                                    
+                                     Cause . . . . . : L'op{ration de connexion @ la base de donn{es relationnelle                  
+                                       ARCADDEV a abouti.  Cette connexion utilise le nom de lieu {loign{ *N, le                    
+                                       nom d'unit{ *N, le nom de mode *N, le nom de lieu local *N, l'ID {loign{ de                  
+                                       r{seau *N, l'ID utilisateur AKUMAR et le nom de programme de transaction *N.                 
+                                        Cette connexion est destin{e au groupe d'activation 31, num{ro 31. Si le                    
+                                       nom de lieu {loign{ est *N, la connexion a {t{ d{marr{e via TCP/IP ou une                    
+                                       socket ; pour de plus amples informations sur l'adresse IP, consultez les                    
+                                       messages pr{c{dents dans l'historique du travail.                                            
+SQL7971    Ex{cution               00   28/08/23  11:58:23,000341  QSQCONN      QSYS        *STMT    QSQCONN     QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QSQCONN                                                        
+                                     Proc{dure d'origine . . . . :   CLEANUP                                                        
+                                     Instruction . . . . . . . . :   22536                                                          
+                                     Module de destination . . . :   QSQCONN                                                        
+                                     Proc{dure de destination  . :   CLEANUP                                                        
+                                     Instruction . . . . . . . . :   22536                                                          
+                                     Message . . . . :   Connexion en cours : base de donn{es relationnelle                         
+                                       ARCADDEV.                                                                                    
+                                     Cause . . . . . : L'identification produit est QSQ07030, le nom de classe de                   
+                                       serveur QAS et l'ID utilisateur AKUMAR. La m{thode de connexion utilis{e est                 
+                                       *DUW. Le type de connexion est 5.  Voici la liste des types de connexion : -                 
+                                       Type 1 : La conversation n'est pas prot{g{e, ou il s'agit d'une connexion @                  
+                                       un pilote demandeur d'application ou d'une connexion locale utilisant la                     
+ 5770SS1 V7R3M0 160422                        Display Job Log                      ARCADDEV  28/08/23  11:58:23 CEST     Page    3  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   523945       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                       m{thode de connexion *RUW, et la validation de mises @ jour est possible. -                  
+                                       Type 2 : La conversation n'est pas prot{g{e et la validation de mises @ jour                 
+                                       n'est pas possible. - Type 3 : La conversation est prot{g{e et il n'est pas                  
+                                       d{termin{ si la validation de mises @ jour est possible. - Type 4 : La                       
+                                       conversation n'est pas prot{g{e et il n'est pas d{termin{ si la validation                   
+                                       de mises @ jour est possible. - Type 5 : La connexion est une connexion                      
+                                       locale ou une connexion @ un pilote demandeur d'application utilisant la                     
+                                       m{thode de connexion *DUW, et il n'est pas d{termin{ si la validation de                     
+                                       mises @ jour est possible. Si la valeur de la base de donn{es relationnelle                  
+                                       est *N, le poste *LOCAL n'a pas {t{ ajout{ au r{pertoire des bases de                        
+                                       donn{es relationnelles.                                                                      
+CPI4339    Information             00   28/08/23  11:58:23,000462  QQQSRVI1     QSYS        *STMT    QQQSETUP    QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QQQAINI                                                        
+                                     Proc{dure d'origine . . . . :   GETMSGTXT                                                      
+                                     Instruction . . . . . . . . :   11299                                                          
+                                     Module de destination . . . :   QQQSETUP                                                       
+                                     Proc{dure de destination  . :   SETQIS                                                         
+                                     Instruction . . . . . . . . :   13472                                                          
+                                     Message . . . . :   Options de requête extraites du fichier QAQQINI dans la                    
+                                       biblioth}que QUSRSYS.                                                                        
+                                     Que faire  . . . : Options de requête extraites du fichier QAQQINI dans la                     
+                                       biblioth}que QUSRSYS.                                                                        
+CPI434A    Information             00   28/08/23  11:58:23,000713  QQQQUERY     QSYS        *STMT    QSQRUN3     QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QQQQUERY                                                       
+                                     Proc{dure d'origine . . . . :   QQQQUERY                                                       
+                                     Instruction . . . . . . . . :   13796                                                          
+                                     Module de destination . . . :   QSQOPEN                                                        
+                                     Proc{dure de destination  . :   FULL_OPEN                                                      
+                                     Instruction . . . . . . . . :   40727                                                          
+                                     Message . . . . :   Message de d{bogage de d{but **** de l'optimiseur pour la                  
+                                       requête .                                                                                    
+                                     Cause . . . . . : Les messages de d{bogage de l'optimiseur qui suivent                         
+                                       fournissent les informations d'optimisation de requête relatives @                           
+                                       l'ex{cution de la requête. Ce message est le premier message de d{bogage. Il                 
+                                       indique le d{but d'un ensemble de messages de d{bogage. Le message CPI434B                   
+                                       est le dernier message de d{bogage relatif @ cette requête. Tous les                         
+                                       messages de d{bogage compris entre ce message et le message CPI434B                          
+                                       d{crivent l'ex{cution g{n{rale de la requête.                                                
+CPI4339    Information             00   28/08/23  11:58:23,001554  QQQSRVI1     QSYS        *STMT    QQQSETUP    QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QQQAINI                                                        
+                                     Proc{dure d'origine . . . . :   GETMSGTXT                                                      
+                                     Instruction . . . . . . . . :   11299                                                          
+                                     Module de destination . . . :   QQQSETUP                                                       
+                                     Proc{dure de destination  . :   SETQIS                                                         
+                                     Instruction . . . . . . . . :   13472                                                          
+                                     Message . . . . :   Options de requête extraites du fichier QAQQINI dans la                    
+                                       biblioth}que QUSRSYS.                                                                        
+                                     Que faire  . . . : Options de requête extraites du fichier QAQQINI dans la                     
+                                       biblioth}que QUSRSYS.                                                                        
+ 5770SS1 V7R3M0 160422                        Display Job Log                      ARCADDEV  28/08/23  11:58:23 CEST     Page    4  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   523945       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+CPI4323    Information             00   28/08/23  11:58:23,002385  QQQQUERY     QSYS        *STMT    QSQRUN3     QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QQQQUERY                                                       
+                                     Proc{dure d'origine . . . . :   QQQSNDPMSG                                                     
+                                     Instruction . . . . . . . . :   5067                                                           
+                                     Module de destination . . . :   QSQOPEN                                                        
+                                     Proc{dure de destination  . :   BQDTAP                                                         
+                                     Instruction . . . . . . . . :   31195                                                          
+                                     Message . . . . :   Plan d'acc}s du processeur de requêtes reconstruit.                        
+                                     Cause . . . . . : Le plan d'acc}s a {t{ reconstruit (code raison 0). Voici la                  
+                                       liste des codes raison et leur signification : 0 - Un nouveau plan d'acc}s a                 
+                                       {t{ cr{{. 1 - Un objet (fichier ou mbre) diff}re de celui r{f{renc{ dans le                  
+                                       plan d'acc}s. Raisons possibles : recr{ation, restauration ou remplacement                   
+                                       par un nouvel objet. 2 - Le plan d'acc}s se servait d'un ODP r{utilisable et                 
+                                       l'optimiseur a d{cid{ d'utiliser un ODP non r{utilisable. 3 - Le plan                        
+                                       d'acc}s utilisait un ODP non r{utilisable et l'optimiseur a d{cid{                           
+                                       d'utiliser un ODP r{utilisable. 4 - Le nbre d'enreg du mbre *N, fich *N,                     
+                                       biblio *N, a {t{ modifi{ @ plus de 10 %. 5 - Un nouveau chemin d'acc}s                       
+                                       existe sur le mbre *N, fich *N, biblio *N. 6 - Un chemin d'acc}s cr{{ sur le                 
+                                       mbre *N, fich *N, biblio *N, utilis{ pour ce plan d'acc}s n'existe plus ou                   
+                                       n'est plus correct. 7 - Plan d'acc}s du processeur de requêtes reconstitu{                   
+                                       en raison d'une modification de la programmation syst}me. 8 - CCSID du                       
+                                       travail en cours diff{rent de celui du travail utilis{ dans ce plan d'acc}s.                 
+                                       9 - Valeur de l'un des param suivants diff{rente dans le travail en cours :                  
+                                       format ou s{parateur de date, ou format ou s{parateur d'heure. 10 - Table de                 
+                                       tri modifi{e. 11 - Le nbre de processeurs actifs, ou encore la taille ou                     
+                                       l'option de pagination du pool m{moire a chang{. 12 - Fonction DB2 Symmetric                 
+                                       Multiprocessing install{e ou supprim{e. 13 - Valeur de l'attribut de requête                 
+                                       de degr{ modifi{e via la cde CL CHGSYSVAL ou CHGQRYA ou le fich d'options de                 
+                                       requête *N de *N. 14 - Une vue est ouverte @ l'aide d'un pgm en langage                      
+                                       {volu{ ou la vue est mat{rialis{e. 15 - L'un des objets suivants : variable                  
+                                       globale, objet de s{quence, type d{fini par l'utilisateur ou fonction                        
+                                       d{finie par l'utilisateur n'est pas le même que l'objet r{f{renc{ dans le                    
+                                       plan d'acc}s ; ou bien, le chemin SQL utilis{ pour g{n{rer le plan d'acc}s                   
+                                       est diff{rent du chemin SQL en cours. 16 - Attributs de requête sp{cifi{s @                  
+                                       partir du fich d'options de requête *N de *N. 17 - Plan d'acc}s g{n{r{ avec                  
+                                       un niveau de contrôle de validation diff{rent de celui du travail en cours.                  
+                                       18 - Plan d'acc}s g{n{r{ avec une taille diff{rente d'ensemble de r{ponses                   
+                                       de curseur statique. - Il s'agit du 1er lancement de cette requête depuis                    
+                                       une pr{paration ou une compilation. 20 et plus -- La signification des ces                   
+                                       codes raison figure dans l'aide sur le message CPI4351. Si le code raison                    
+                                       est 4, 5, 6, 20 ou 21 et que le fichier d{fini dans l'explication du code                    
+                                       raison est un fichier logique, le membre *N du fichier physique *N de la                     
+                                       biblio *N est le fichier avec la modif indiqu{e. Que faire  . . . : Evitez                   
+                                       les modif excessives du plan d'acc}s qui refl}tent souvent un probl}me de                    
+                                       conception des applications. Technical description . . . . . . . . :   The                   
+                                       access plan was rebuilt because of reason code 0. This reason code has a                     
+                                       sub-type identifier of X'0000' that is used for internal system tracking.                    
+CPI4339    Information             00   28/08/23  11:58:23,002559  QQQSRVI1     QSYS        *STMT    QQQSETUP    QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QQQAINI                                                        
+                                     Proc{dure d'origine . . . . :   GETMSGTXT                                                      
+ 5770SS1 V7R3M0 160422                        Display Job Log                      ARCADDEV  28/08/23  11:58:23 CEST     Page    5  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   523945       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                     Instruction . . . . . . . . :   11299                                                          
+                                     Module de destination . . . :   QQQSETUP                                                       
+                                     Proc{dure de destination  . :   SETQIS                                                         
+                                     Instruction . . . . . . . . :   13472                                                          
+                                     Message . . . . :   Options de requête extraites du fichier QAQQINI dans la                    
+                                       biblioth}que QUSRSYS.                                                                        
+                                     Que faire  . . . : Options de requête extraites du fichier QAQQINI dans la                     
+                                       biblioth}que QUSRSYS.                                                                        
+CPI434A    Information             00   28/08/23  11:58:23,002594  QQQQUERY     QSYS        *STMT    QSQRUN3     QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QQQQUERY                                                       
+                                     Proc{dure d'origine . . . . :   QQQQUERY                                                       
+                                     Instruction . . . . . . . . :   13796                                                          
+                                     Module de destination . . . :   QSQOPEN                                                        
+                                     Proc{dure de destination  . :   FULL_OPEN                                                      
+                                     Instruction . . . . . . . . :   40727                                                          
+                                     Message . . . . :   Message de d{bogage de d{but **** de l'optimiseur pour la                  
+                                       requête .                                                                                    
+                                     Cause . . . . . : Les messages de d{bogage de l'optimiseur qui suivent                         
+                                       fournissent les informations d'optimisation de requête relatives @                           
+                                       l'ex{cution de la requête. Ce message est le premier message de d{bogage. Il                 
+                                       indique le d{but d'un ensemble de messages de d{bogage. Le message CPI434B                   
+                                       est le dernier message de d{bogage relatif @ cette requête. Tous les                         
+                                       messages de d{bogage compris entre ce message et le message CPI434B                          
+                                       d{crivent l'ex{cution g{n{rale de la requête.                                                
+CPI4323    Information             00   28/08/23  11:58:23,015211  QQQOOODBOP   QSYS        *STMT    QSQRUN3     QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QQQOOODBMS                                                     
+                                     Proc{dure d'origine . . . . :   QQQSNDPMSG                                                     
+                                     Instruction . . . . . . . . :   3037                                                           
+                                     Module de destination . . . :   QSQOPEN                                                        
+                                     Proc{dure de destination  . :   FULL_OPEN                                                      
+                                     Instruction . . . . . . . . :   40727                                                          
+                                     Message . . . . :   Plan d'acc}s du processeur de requêtes reconstruit.                        
+                                     Cause . . . . . : Le plan d'acc}s a {t{ reconstruit (code raison 0). Voici la                  
+                                       liste des codes raison et leur signification : 0 - Un nouveau plan d'acc}s a                 
+                                       {t{ cr{{. 1 - Un objet (fichier ou mbre) diff}re de celui r{f{renc{ dans le                  
+                                       plan d'acc}s. Raisons possibles : recr{ation, restauration ou remplacement                   
+                                       par un nouvel objet. 2 - Le plan d'acc}s se servait d'un ODP r{utilisable et                 
+                                       l'optimiseur a d{cid{ d'utiliser un ODP non r{utilisable. 3 - Le plan                        
+                                       d'acc}s utilisait un ODP non r{utilisable et l'optimiseur a d{cid{                           
+                                       d'utiliser un ODP r{utilisable. 4 - Le nbre d'enreg du mbre *N, fich *N,                     
+                                       biblio *N, a {t{ modifi{ @ plus de 10 %. 5 - Un nouveau chemin d'acc}s                       
+                                       existe sur le mbre *N, fich *N, biblio *N. 6 - Un chemin d'acc}s cr{{ sur le                 
+                                       mbre *N, fich *N, biblio *N, utilis{ pour ce plan d'acc}s n'existe plus ou                   
+                                       n'est plus correct. 7 - Plan d'acc}s du processeur de requêtes reconstitu{                   
+                                       en raison d'une modification de la programmation syst}me. 8 - CCSID du                       
+                                       travail en cours diff{rent de celui du travail utilis{ dans ce plan d'acc}s.                 
+                                       9 - Valeur de l'un des param suivants diff{rente dans le travail en cours :                  
+                                       format ou s{parateur de date, ou format ou s{parateur d'heure. 10 - Table de                 
+                                       tri modifi{e. 11 - Le nbre de processeurs actifs, ou encore la taille ou                     
+                                       l'option de pagination du pool m{moire a chang{. 12 - Fonction DB2 Symmetric                 
+ 5770SS1 V7R3M0 160422                        Display Job Log                      ARCADDEV  28/08/23  11:58:23 CEST     Page    6  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   523945       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                       Multiprocessing install{e ou supprim{e. 13 - Valeur de l'attribut de requête                 
+                                       de degr{ modifi{e via la cde CL CHGSYSVAL ou CHGQRYA ou le fich d'options de                 
+                                       requête *N de *N. 14 - Une vue est ouverte @ l'aide d'un pgm en langage                      
+                                       {volu{ ou la vue est mat{rialis{e. 15 - L'un des objets suivants : variable                  
+                                       globale, objet de s{quence, type d{fini par l'utilisateur ou fonction                        
+                                       d{finie par l'utilisateur n'est pas le même que l'objet r{f{renc{ dans le                    
+                                       plan d'acc}s ; ou bien, le chemin SQL utilis{ pour g{n{rer le plan d'acc}s                   
+                                       est diff{rent du chemin SQL en cours. 16 - Attributs de requête sp{cifi{s @                  
+                                       partir du fich d'options de requête *N de *N. 17 - Plan d'acc}s g{n{r{ avec                  
+                                       un niveau de contrôle de validation diff{rent de celui du travail en cours.                  
+                                       18 - Plan d'acc}s g{n{r{ avec une taille diff{rente d'ensemble de r{ponses                   
+                                       de curseur statique. - Il s'agit du 1er lancement de cette requête depuis                    
+                                       une pr{paration ou une compilation. 20 et plus -- La signification des ces                   
+                                       codes raison figure dans l'aide sur le message CPI4351. Si le code raison                    
+                                       est 4, 5, 6, 20 ou 21 et que le fichier d{fini dans l'explication du code                    
+                                       raison est un fichier logique, le membre *N du fichier physique *N de la                     
+                                       biblio *N est le fichier avec la modif indiqu{e. Que faire  . . . : Evitez                   
+                                       les modif excessives du plan d'acc}s qui refl}tent souvent un probl}me de                    
+                                       conception des applications. Technical description . . . . . . . . :   The                   
+                                       access plan was rebuilt because of reason code 0. This reason code has a                     
+                                       sub-type identifier of X'0000' that is used for internal system tracking.                    
+CPI4329    Information             00   28/08/23  11:58:23,015224  QQQOOODBOP   QSYS        *STMT    QQQOOODBOP  QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QQQOOODBMS                                                     
+                                     Proc{dure d'origine . . . . :   QDBOPDUMPDEBUGMSGS                                             
+                                     Instruction . . . . . . . . :   2442                                                           
+                                     Module de destination . . . :   QQQOOOINV                                                      
+                                     Proc{dure de destination  . :   CALLDBMAINTFOROPENOROPTIMIZE                                   
+                                     Instruction . . . . . . . . :   7417                                                           
+                                     Message . . . . :   S{quence d'acc}s par ordre d'arriv{e utilis{e pour                         
+                                       AARIUTPF1 fichier.                                                                           
+                                     Cause . . . . . : La s{quence d'acc}s par ordre d'arriv{e a {t{ utilis{e pour                  
+                                       s{lectionner les enregistrements du membre AARIUTPF1 du fichier AARIUTPF1 de                 
+                                       la biblioth}que QTEMP. Si le fichier AARIUTPF1 de la biblioth}que QTEMP est                  
+                                       un fichier logique, le membre AARIUTPF1 du fichier physique AARIUTPF1 de la                  
+                                       biblioth}que QTEMP est le fichier @ partir duquel les enregistrements sont                   
+                                       s{lectionn{s. Si le nom du fichier commence par *N ou *QUERY, il s'agit d'un                 
+                                       fichier temporaire. Que faire  . . . : L'utilisation d'un chemin d'acc}s                     
+                                       peut am{liorer les performances de la requête si la s{lection                                
+                                       d'enregistrements est sp{cifi{e. S'il n'existe pas de chemin d'acc}s, vous                   
+                                       pouvez en cr{er un dont les premi}res zones cl{ correspondent aux zones de                   
+                                       la s{lection d'enregistrements.  Plus il y aura de zones en correspondance,                  
+                                       plus le niveau de performance sera {lev{. G{n{ralement, pour forcer                          
+                                       l'utilisation d'un chemin d'acc}s existant, pr{cisez un tri sur les zones                    
+                                       correspondant aux premi}res zones cl{ de ce chemin d'acc}s. Pour plus                        
+                                       d'informations, reportez-vous @ l'ensemble de rubriques DB2 for i - Database                 
+                                       Performance and Query Optimization dans la cat{gorie Database de l'IBM i                     
+                                       Information Center.                                                                          
+CPI4338    Information             00   28/08/23  11:58:23,015235  QQQOOODBOP   QSYS        *STMT    QQQOOODBOP  QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QQQOOODBMS                                                     
+                                     Proc{dure d'origine . . . . :   BUILDBITMAPMSGS                                                
+ 5770SS1 V7R3M0 160422                        Display Job Log                      ARCADDEV  28/08/23  11:58:23 CEST     Page    7  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   523945       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                     Instruction . . . . . . . . :   2683                                                           
+                                     Module de destination . . . :   QQQOOODBMS                                                     
+                                     Proc{dure de destination  . :   QDBOPDUMPDEBUGMSGS                                             
+                                     Instruction . . . . . . . . :   2016                                                           
+                                     Message . . . . :   1 chemin(s) d'acc}s utilis{(s) pour le traitement bitmap                   
+                                       du fichier AARIUTPF1.                                                                        
+                                     Cause . . . . . : Le traitement bitmap a {t{ utilis{ pour acc{der @ des                        
+                                       enregistrements du membre AARIUTPF1 du fichier AARIUTPF1 de la biblioth}que                  
+                                       QTEMP. Le traitement bitmap est une m{thode permettant d'utiliser un ou                      
+                                       plusieurs chemins d'acc}s pour acc{der aux enregistrements s{lectionn{s d'un                 
+                                       fichier. En utilisant cette m{thode, la s{lection d'enregistrements est                      
+                                       appliqu{e pour chaque chemin d'acc}s, de mani}re similaire au positionnement                 
+                                       de ligne sur cl{, pour cr{er un bitmap. Le bitmap ne comporte que les                        
+                                       enregistrements du fichier @ s{lectionner. Si plusieurs chemins d'acc}s sont                 
+                                       utilis{s, les bitmaps r{sultants sont fusionn{s en utilisant la logique                      
+                                       bool{enne. Le bitmap r{sultant est alors utilis{ pour limiter l'acc}s aux                    
+                                       seuls enregistrements s{lectionn{s dans le fichier. Le traitement bitmap est                 
+                                       utilis{ en conjonction avec les deux m{thodes d'acc}s principales : la                       
+                                       s{quence d'acc}s par ordre d'arriv{e (CPI4327 ou CPI4329) ou l'acc}s sur cl{                 
+                                       (CPI4326 ou CPI4328). Le message d{crivant la m{thode d'acc}s principale                     
+                                       pr{c}de imm{diatement ce message. Lorsque le bitmap est utilis{ avec la                      
+                                       m{thode d'acc}s sur cl{, cela permet de r{duire davantage le nombre                          
+                                       d'enregistrements s{lectionn{s par le chemin d'acc}s principal avant                         
+                                       d'extraire les enregistrements s{lectionn{s du fichier. Lorsque le bitmap                    
+                                       est utilis{ avec la s{quence d'acc}s par ordre d'arriv{e, cela permet au                     
+                                       processus de balayage s{quentiel du fichier de sauter les enregistrements                    
+                                       non s{lectionn{s par le bitmap : on parle alors de traitement s{quentiel par                 
+                                       sauts. Le liste ci-apr}s indique les noms des chemins d'acc}s utilis{s dans                  
+                                       le traitement bitmap : QTEMP/AARIUTPF1 Si le fichier AARIUTPF1 de la                         
+                                       biblioth}que QTEMP est un fichier logique, le membre AARIUTPF1 du fichier                    
+                                       physique AARIUTPF1 de la biblioth}que QTEMP est le fichier auquel il est                     
+                                       acc{d{. Que faire  . . . : Pour plus d'informations sur le traitement                        
+                                       bitmap, reportez-vous @ l'ensemble de rubriques DB2 for i - Database                         
+                                       Performance and Query Optimization dans la cat{gorie Database de l'IBM i                     
+                                       Information Center.                                                                          
+CPI434B    Information             00   28/08/23  11:58:23,015397  QQQQUERY     QSYS        *STMT    QSQRUN3     QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QQQQUERY                                                       
+                                     Proc{dure d'origine . . . . :   CLEANUP                                                        
+                                     Instruction . . . . . . . . :   34847                                                          
+                                     Module de destination . . . :   QSQOPEN                                                        
+                                     Proc{dure de destination  . :   FULL_OPEN                                                      
+                                     Instruction . . . . . . . . :   40727                                                          
+                                     Message . . . . :   Message de d{bogage de fin **** pour la requête .                          
+                                     Cause . . . . . : Ce message marque la fin des messages de d{bogage pour cette                 
+                                       requête. Tous les messages de d{bogage compris entre ce message et le                        
+                                       message CPI434A d{crivent l'ex{cution g{n{rale de la requête.                                
+SQL7912    Information             00   28/08/23  11:58:23,015439  QSQRUN3      QSYS        *STMT    QSQRUN2     QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QSQOPEN                                                        
+                                     Proc{dure d'origine . . . . :   SNDINFOMSG                                                     
+                                     Instruction . . . . . . . . :   42846                                                          
+ 5770SS1 V7R3M0 160422                        Display Job Log                      ARCADDEV  28/08/23  11:58:23 CEST     Page    8  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   523945       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                     Module de destination . . . :   QSQFETCH                                                       
+                                     Proc{dure de destination  . :   F_EMBSELL                                                      
+                                     Instruction . . . . . . . . :   14761                                                          
+                                     Message . . . . :   ODP cr{{.                                                                  
+                                     Cause . . . . . : Un chemin d'ouverture (ODP) a {t{ cr{{. Aucun ODP                            
+                                       r{utilisable n'a {t{ trouv{. Une telle op{ration se produit dans les cas                     
+                                       suivants : - L'instruction est lanc{e pour la premi}re fois. - La commande                   
+                                       RCLRSC (R{cup{rer les ressources) a {t{ lanc{e depuis la derni}re ex{cution                  
+                                       de cette instruction. - La derni}re ex{cution de cette instruction a                         
+                                       entraîn{ la suppression de l'ODP. - S'il s'agit d'une instruction OPEN, la                   
+                                       derni}re fermeture de ce curseur a entraîn{ la suppression de l'ODP. - Le                    
+                                       serveur d'applications (AS) a {t{ modifi{ par une instruction CONNECT. Que                   
+                                       faire . . . : Pour une application comportant de nombreuses ouvertures de                    
+                                       curseur, il est plus efficace d'avoir recours @ un ODP r{utilisable que de                   
+                                       cr{er un ODP @ chaque fois. Il en va de même pour une utilisation r{p{t{e                    
+                                       des instructions INSERT, UPDATE, DELETE et SELECT INTO. Si des ODP sont                      
+                                       cr{{s @ chaque ouverture, consultez le message de fermeture pour connaître                   
+                                       la raison de la suppression de l'ODP.                                                        
+SQL7916    Information             00   28/08/23  11:58:23,015452  QSQRUN3      QSYS        *STMT    QSQRUN2     QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QSQOPEN                                                        
+                                     Proc{dure d'origine . . . . :   SNDINFOMSG                                                     
+                                     Instruction . . . . . . . . :   42846                                                          
+                                     Module de destination . . . :   QSQFETCH                                                       
+                                     Proc{dure de destination  . :   F_EMBSELL                                                      
+                                     Instruction . . . . . . . . :   14761                                                          
+                                     Message . . . . :   Groupage utilis{ pour la requête.                                          
+                                     Cause . . . . . : Un groupage a {t{ utilis{ pour la mise en service de cette                   
+                                       requête. Lors de la premi}re instruction FETCH, SQL extraira un groupe                       
+                                       d'enregistrements du gestionnaire de la base de donn{es.  D'autres                           
+                                       instructions FETCH doivent être lanc{es par le programme appelant mais elles                 
+                                       ne n{cessitent pas de demande d'autres enregistrements par SQL. Ces                          
+                                       instructions sont donc ex{cut{es plus rapidement. Que faire . . . : SQL                      
+                                       tente d'utiliser le groupage @ chaque fois qu'une telle op{ration est                        
+                                       possible.  Lorsque le curseur ne dispose pas de la fonction de mise @ jour                   
+                                       et que le contrôle de validation n'est pas actif, le groupage peut être                      
+                                       utilis{.                                                                                     
+SQL7914    Information             00   28/08/23  11:58:23,015933  QSQSBAS      QSYS        *STMT    QSQSBAS     QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QSQCLSCR                                                       
+                                     Proc{dure d'origine . . . . :   SQPSUCLS                                                       
+                                     Instruction . . . . . . . . :   7027                                                           
+                                     Module de destination . . . :   QSQCLSCR                                                       
+                                     Proc{dure de destination  . :   SQCLSCSR                                                       
+                                     Instruction . . . . . . . . :   6577                                                           
+                                     Message . . . . :   ODP non supprim{.                                                          
+                                     Cause . . . . . : Le chemin d'ouverture (ODP) de cette instruction ou de ce                    
+                                       curseur n'a pas {t{ supprim{.  Il peut être r{utilis{ lors de l'ex{cution                    
+                                       ult{rieure d'une instruction. Aucun poste de journal ne sera g{n{r{.                         
+SQL7964    Ex{cution               00   28/08/23  11:58:23,015951  QSQRUN2      QSYS        *STMT    QSQRUN2     QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QSQFETCH                                                       
+ 5770SS1 V7R3M0 160422                        Display Job Log                      ARCADDEV  28/08/23  11:58:23 CEST     Page    9  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   523945       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                     Proc{dure d'origine . . . . :   CK_DEBUG                                                       
+                                     Instruction . . . . . . . . :   24094                                                          
+                                     Module de destination . . . :   QSQFETCH                                                       
+                                     Proc{dure de destination  . :   CK_DEBUG                                                       
+                                     Instruction . . . . . . . . :   24094                                                          
+                                     Message . . . . :   Instruction SELECT imbriqu{e ex{cut{e.                                     
+SQL7911    Information             00   28/08/23  11:58:23,016192  QSQRUN3      QSYS        *STMT    QSQRUN2     QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QSQOPEN                                                        
+                                     Proc{dure d'origine . . . . :   SNDINFOMSG                                                     
+                                     Instruction . . . . . . . . :   42846                                                          
+                                     Module de destination . . . :   QSQFETCH                                                       
+                                     Proc{dure de destination  . :   F_EMBSELL                                                      
+                                     Instruction . . . . . . . . :   14761                                                          
+                                     Message . . . . :   ODP r{utilis{.                                                             
+                                     Cause . . . . . : Un chemin d'ouverture (ODP) d{j@ cr{{ a {t{ r{utilis{.                       
+                                       L'ODP r{utilisable a {t{ trouv{ pour cette instruction SQL et a {t{                          
+                                       r{utilis{.  Cet ODP peut provenir du même appel de programme ou d'un appel                   
+                                       pr{c{dent.  La r{utilisation d'un ODP ne g{n}re pas de poste OPEN dans le                    
+                                       journal.                                                                                     
+SQL7914    Information             00   28/08/23  11:58:23,016233  QSQSBAS      QSYS        *STMT    QSQSBAS     QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QSQCLSCR                                                       
+                                     Proc{dure d'origine . . . . :   SQPSUCLS                                                       
+                                     Instruction . . . . . . . . :   7027                                                           
+                                     Module de destination . . . :   QSQCLSCR                                                       
+                                     Proc{dure de destination  . :   SQCLSCSR                                                       
+                                     Instruction . . . . . . . . :   6577                                                           
+                                     Message . . . . :   ODP non supprim{.                                                          
+                                     Cause . . . . . : Le chemin d'ouverture (ODP) de cette instruction ou de ce                    
+                                       curseur n'a pas {t{ supprim{.  Il peut être r{utilis{ lors de l'ex{cution                    
+                                       ult{rieure d'une instruction. Aucun poste de journal ne sera g{n{r{.                         
+SQL7964    Ex{cution               00   28/08/23  11:58:23,016247  QSQRUN2      QSYS        *STMT    QSQRUN2     QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QSQFETCH                                                       
+                                     Proc{dure d'origine . . . . :   CK_DEBUG                                                       
+                                     Instruction . . . . . . . . :   24094                                                          
+                                     Module de destination . . . :   QSQFETCH                                                       
+                                     Proc{dure de destination  . :   CK_DEBUG                                                       
+                                     Instruction . . . . . . . . :   24094                                                          
+                                     Message . . . . :   Instruction SELECT imbriqu{e ex{cut{e.                                     
+SQL7911    Information             00   28/08/23  11:58:23,023985  QSQRUN3      QSYS        *STMT    QSQRUN2     QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QSQOPEN                                                        
+                                     Proc{dure d'origine . . . . :   SNDINFOMSG                                                     
+                                     Instruction . . . . . . . . :   42846                                                          
+                                     Module de destination . . . :   QSQFETCH                                                       
+                                     Proc{dure de destination  . :   F_EMBSELL                                                      
+                                     Instruction . . . . . . . . :   14761                                                          
+                                     Message . . . . :   ODP r{utilis{.                                                             
+                                     Cause . . . . . : Un chemin d'ouverture (ODP) d{j@ cr{{ a {t{ r{utilis{.                       
+                                       L'ODP r{utilisable a {t{ trouv{ pour cette instruction SQL et a {t{                          
+ 5770SS1 V7R3M0 160422                        Display Job Log                      ARCADDEV  28/08/23  11:58:23 CEST     Page   10  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   523945       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                       r{utilis{.  Cet ODP peut provenir du même appel de programme ou d'un appel                   
+                                       pr{c{dent.  La r{utilisation d'un ODP ne g{n}re pas de poste OPEN dans le                    
+                                       journal.                                                                                     
+SQL7914    Information             00   28/08/23  11:58:23,024054  QSQSBAS      QSYS        *STMT    QSQSBAS     QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QSQCLSCR                                                       
+                                     Proc{dure d'origine . . . . :   SQPSUCLS                                                       
+                                     Instruction . . . . . . . . :   7027                                                           
+                                     Module de destination . . . :   QSQCLSCR                                                       
+                                     Proc{dure de destination  . :   SQCLSCSR                                                       
+                                     Instruction . . . . . . . . :   6577                                                           
+                                     Message . . . . :   ODP non supprim{.                                                          
+                                     Cause . . . . . : Le chemin d'ouverture (ODP) de cette instruction ou de ce                    
+                                       curseur n'a pas {t{ supprim{.  Il peut être r{utilis{ lors de l'ex{cution                    
+                                       ult{rieure d'une instruction. Aucun poste de journal ne sera g{n{r{.                         
+SQL0100    Information             00   28/08/23  11:58:23,024071  QSQRUN2      QSYS        *STMT    QSQRUN2     QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QSQFETCH                                                       
+                                     Proc{dure d'origine . . . . :   CK_DEBUG                                                       
+                                     Instruction . . . . . . . . :   24094                                                          
+                                     Module de destination . . . :   QSQFETCH                                                       
+                                     Proc{dure de destination  . :   CK_DEBUG                                                       
+                                     Instruction . . . . . . . . :   24094                                                          
+                                     Message . . . . :   La ligne n'a pas {t{ trouv{e pour SELECT.                                  
+                                     Cause . . . . . : L'une des conditions suivantes s'est produite : - Dans le                    
+                                       cas d'une instruction FETCH, plus aucune ligne ne satisfait aux valeurs de                   
+                                       s{lection (fin de fichier).  Le nom du curseur est SELECT et                                 
+                                       l'identificateur de l'ensemble de r{sultats est 0. Si l'identificateur de                    
+                                       l'ensemble de r{sultats est diff{rent de z{ro, la table de r{sultats pour ce                 
+                                       curseur a fait l'objet d'un acc}s en tant qu'ensemble de r{sultats de                        
+                                       proc{dure stock{e. - Dans le cas d'une instruction FETCH portant sur un                      
+                                       curseur d{clar{ avec SCROLL, aucun enregistrement n'a {t{ trouv{.  Si vous                   
+                                       avez indiqu{ NEXT, la fin du fichier est atteinte.  Si vous avez indiqu{                     
+                                       PRIOR, le d{but du fichier est atteint.  Si vous avez indiqu{ RELATIVE, la                   
+                                       fin ou le d{but du fichier, selon la valeur indiqu{e, a {t{ atteinte. Si                     
+                                       vous avez indiqu{ FIRST ou LAST, aucun enregistrement ne satisfait aux                       
+                                       crit}res de s{lection. SELECT d{signe le curseur. - Dans le cas d'une                        
+                                       instruction SELECT imbriqu{e, aucune ligne ne satisfait aux valeurs de                       
+                                       s{lection. -- Dans le cas d'une instruction UPDATE, INSERT, DELETE ou MERGE,                 
+                                       aucune ligne ne satisfait @ la sous-requête, @ la clause WHERE ou aux                        
+                                       crit}res MERGE. Aucune ligne n'est donc mise @ jour, ins{r{e ou supprim{e.                   
+                                       -- Si SKIP LOCKED DATA est indiqu{, aucune ligne disponible n'est qualifi{e                  
+                                       pour le retour. Que faire . . . : Aucune action de reprise n'est n{cessaire.                 
+SQL7911    Information             00   28/08/23  11:58:23,024253  QSQRUN3      QSYS        *STMT    QSQRUN2     QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QSQOPEN                                                        
+                                     Proc{dure d'origine . . . . :   SNDINFOMSG                                                     
+                                     Instruction . . . . . . . . :   42846                                                          
+                                     Module de destination . . . :   QSQFETCH                                                       
+                                     Proc{dure de destination  . :   F_EMBSELL                                                      
+                                     Instruction . . . . . . . . :   14761                                                          
+                                     Message . . . . :   ODP r{utilis{.                                                             
+ 5770SS1 V7R3M0 160422                        Display Job Log                      ARCADDEV  28/08/23  11:58:23 CEST     Page   11  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   523945       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                     Cause . . . . . : Un chemin d'ouverture (ODP) d{j@ cr{{ a {t{ r{utilis{.                       
+                                       L'ODP r{utilisable a {t{ trouv{ pour cette instruction SQL et a {t{                          
+                                       r{utilis{.  Cet ODP peut provenir du même appel de programme ou d'un appel                   
+                                       pr{c{dent.  La r{utilisation d'un ODP ne g{n}re pas de poste OPEN dans le                    
+                                       journal.                                                                                     
+SQL7914    Information             00   28/08/23  11:58:23,024288  QSQSBAS      QSYS        *STMT    QSQSBAS     QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QSQCLSCR                                                       
+                                     Proc{dure d'origine . . . . :   SQPSUCLS                                                       
+                                     Instruction . . . . . . . . :   7027                                                           
+                                     Module de destination . . . :   QSQCLSCR                                                       
+                                     Proc{dure de destination  . :   SQCLSCSR                                                       
+                                     Instruction . . . . . . . . :   6577                                                           
+                                     Message . . . . :   ODP non supprim{.                                                          
+                                     Cause . . . . . : Le chemin d'ouverture (ODP) de cette instruction ou de ce                    
+                                       curseur n'a pas {t{ supprim{.  Il peut être r{utilis{ lors de l'ex{cution                    
+                                       ult{rieure d'une instruction. Aucun poste de journal ne sera g{n{r{.                         
+SQL0100    Information             00   28/08/23  11:58:23,024302  QSQRUN2      QSYS        *STMT    QSQRUN2     QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QSQFETCH                                                       
+                                     Proc{dure d'origine . . . . :   CK_DEBUG                                                       
+                                     Instruction . . . . . . . . :   24094                                                          
+                                     Module de destination . . . :   QSQFETCH                                                       
+                                     Proc{dure de destination  . :   CK_DEBUG                                                       
+                                     Instruction . . . . . . . . :   24094                                                          
+                                     Message . . . . :   La ligne n'a pas {t{ trouv{e pour SELECT.                                  
+                                     Cause . . . . . : L'une des conditions suivantes s'est produite : - Dans le                    
+                                       cas d'une instruction FETCH, plus aucune ligne ne satisfait aux valeurs de                   
+                                       s{lection (fin de fichier).  Le nom du curseur est SELECT et                                 
+                                       l'identificateur de l'ensemble de r{sultats est 0. Si l'identificateur de                    
+                                       l'ensemble de r{sultats est diff{rent de z{ro, la table de r{sultats pour ce                 
+                                       curseur a fait l'objet d'un acc}s en tant qu'ensemble de r{sultats de                        
+                                       proc{dure stock{e. - Dans le cas d'une instruction FETCH portant sur un                      
+                                       curseur d{clar{ avec SCROLL, aucun enregistrement n'a {t{ trouv{.  Si vous                   
+                                       avez indiqu{ NEXT, la fin du fichier est atteinte.  Si vous avez indiqu{                     
+                                       PRIOR, le d{but du fichier est atteint.  Si vous avez indiqu{ RELATIVE, la                   
+                                       fin ou le d{but du fichier, selon la valeur indiqu{e, a {t{ atteinte. Si                     
+                                       vous avez indiqu{ FIRST ou LAST, aucun enregistrement ne satisfait aux                       
+                                       crit}res de s{lection. SELECT d{signe le curseur. - Dans le cas d'une                        
+                                       instruction SELECT imbriqu{e, aucune ligne ne satisfait aux valeurs de                       
+                                       s{lection. -- Dans le cas d'une instruction UPDATE, INSERT, DELETE ou MERGE,                 
+                                       aucune ligne ne satisfait @ la sous-requête, @ la clause WHERE ou aux                        
+                                       crit}res MERGE. Aucune ligne n'est donc mise @ jour, ins{r{e ou supprim{e.                   
+                                       -- Si SKIP LOCKED DATA est indiqu{, aucune ligne disponible n'est qualifi{e                  
+                                       pour le retour. Que faire . . . : Aucune action de reprise n'est n{cessaire.                 
+SQL7911    Information             00   28/08/23  11:58:23,024602  QSQRUN3      QSYS        *STMT    QSQRUN2     QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QSQOPEN                                                        
+                                     Proc{dure d'origine . . . . :   SNDINFOMSG                                                     
+                                     Instruction . . . . . . . . :   42846                                                          
+                                     Module de destination . . . :   QSQFETCH                                                       
+                                     Proc{dure de destination  . :   F_EMBSELL                                                      
+ 5770SS1 V7R3M0 160422                        Display Job Log                      ARCADDEV  28/08/23  11:58:23 CEST     Page   12  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   523945       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                     Instruction . . . . . . . . :   14761                                                          
+                                     Message . . . . :   ODP r{utilis{.                                                             
+                                     Cause . . . . . : Un chemin d'ouverture (ODP) d{j@ cr{{ a {t{ r{utilis{.                       
+                                       L'ODP r{utilisable a {t{ trouv{ pour cette instruction SQL et a {t{                          
+                                       r{utilis{.  Cet ODP peut provenir du même appel de programme ou d'un appel                   
+                                       pr{c{dent.  La r{utilisation d'un ODP ne g{n}re pas de poste OPEN dans le                    
+                                       journal.                                                                                     
+SQL7914    Information             00   28/08/23  11:58:23,024665  QSQSBAS      QSYS        *STMT    QSQSBAS     QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QSQCLSCR                                                       
+                                     Proc{dure d'origine . . . . :   SQPSUCLS                                                       
+                                     Instruction . . . . . . . . :   7027                                                           
+                                     Module de destination . . . :   QSQCLSCR                                                       
+                                     Proc{dure de destination  . :   SQCLSCSR                                                       
+                                     Instruction . . . . . . . . :   6577                                                           
+                                     Message . . . . :   ODP non supprim{.                                                          
+                                     Cause . . . . . : Le chemin d'ouverture (ODP) de cette instruction ou de ce                    
+                                       curseur n'a pas {t{ supprim{.  Il peut être r{utilis{ lors de l'ex{cution                    
+                                       ult{rieure d'une instruction. Aucun poste de journal ne sera g{n{r{.                         
+SQL0100    Information             00   28/08/23  11:58:23,024681  QSQRUN2      QSYS        *STMT    QSQRUN2     QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QSQFETCH                                                       
+                                     Proc{dure d'origine . . . . :   CK_DEBUG                                                       
+                                     Instruction . . . . . . . . :   24094                                                          
+                                     Module de destination . . . :   QSQFETCH                                                       
+                                     Proc{dure de destination  . :   CK_DEBUG                                                       
+                                     Instruction . . . . . . . . :   24094                                                          
+                                     Message . . . . :   La ligne n'a pas {t{ trouv{e pour SELECT.                                  
+                                     Cause . . . . . : L'une des conditions suivantes s'est produite : - Dans le                    
+                                       cas d'une instruction FETCH, plus aucune ligne ne satisfait aux valeurs de                   
+                                       s{lection (fin de fichier).  Le nom du curseur est SELECT et                                 
+                                       l'identificateur de l'ensemble de r{sultats est 0. Si l'identificateur de                    
+                                       l'ensemble de r{sultats est diff{rent de z{ro, la table de r{sultats pour ce                 
+                                       curseur a fait l'objet d'un acc}s en tant qu'ensemble de r{sultats de                        
+                                       proc{dure stock{e. - Dans le cas d'une instruction FETCH portant sur un                      
+                                       curseur d{clar{ avec SCROLL, aucun enregistrement n'a {t{ trouv{.  Si vous                   
+                                       avez indiqu{ NEXT, la fin du fichier est atteinte.  Si vous avez indiqu{                     
+                                       PRIOR, le d{but du fichier est atteint.  Si vous avez indiqu{ RELATIVE, la                   
+                                       fin ou le d{but du fichier, selon la valeur indiqu{e, a {t{ atteinte. Si                     
+                                       vous avez indiqu{ FIRST ou LAST, aucun enregistrement ne satisfait aux                       
+                                       crit}res de s{lection. SELECT d{signe le curseur. - Dans le cas d'une                        
+                                       instruction SELECT imbriqu{e, aucune ligne ne satisfait aux valeurs de                       
+                                       s{lection. -- Dans le cas d'une instruction UPDATE, INSERT, DELETE ou MERGE,                 
+                                       aucune ligne ne satisfait @ la sous-requête, @ la clause WHERE ou aux                        
+                                       crit}res MERGE. Aucune ligne n'est donc mise @ jour, ins{r{e ou supprim{e.                   
+                                       -- Si SKIP LOCKED DATA est indiqu{, aucune ligne disponible n'est qualifi{e                  
+                                       pour le retour. Que faire . . . : Aucune action de reprise n'est n{cessaire.                 
+CPC7301    Ex{cution               00   28/08/23  11:58:23,039733  QDDCPF       QSYS        056D     QSQPMAIN    QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module de destination . . . :   QSQPMAIN                                                       
+                                     Proc{dure de destination  . :   CRTFILE                                                        
+                                     Instruction . . . . . . . . :   15124                                                          
+ 5770SS1 V7R3M0 160422                        Display Job Log                      ARCADDEV  28/08/23  11:58:23 CEST     Page   13  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   523945       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                     Message . . . . :   Fichier QSQLTEMP1 cr{{ dans la biblioth}que QTEMP.                         
+CPC7305    Ex{cution               00   28/08/23  11:58:23,044781  QDDCPFM      QSYS        005B     QSQPMAIN    QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module de destination . . . :   QSQPMAIN                                                       
+                                     Proc{dure de destination  . :   CRTFILE                                                        
+                                     Instruction . . . . . . . . :   15124                                                          
+                                     Message . . . . :   Membre XIUNMOD2 ajout{ au fichier QSQLTEMP1 de QTEMP.                      
+CPI4339    Information             00   28/08/23  11:58:23,045011  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QQQAINI                                                        
+                                     Proc{dure d'origine . . . . :   GETMSGTXT                                                      
+                                     Instruction . . . . . . . . :   11299                                                          
+                                     Module de destination . . . :   QQQGINI                                                        
+                                     Proc{dure de destination  . :   QQGETINIOPTIONS                                                
+                                     Instruction . . . . . . . . :   1265                                                           
+                                     Message . . . . :   Options de requête extraites du fichier QAQQINI dans la                    
+                                       biblioth}que QUSRSYS.                                                                        
+                                     Que faire  . . . : Options de requête extraites du fichier QAQQINI dans la                     
+                                       biblioth}que QUSRSYS.                                                                        
+CPD4090    Diagnostic              10   28/08/23  11:58:23,085158  QDMCOPEN     QSYS        17B7     QSQPMAIN    QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module de destination . . . :   QSQPMAIN                                                       
+                                     Proc{dure de destination  . :   PRTOPS                                                         
+                                     Instruction . . . . . . . . :   13947                                                          
+                                     Message . . . . :   Imprimante QPRINT non trouv{e. File de sortie remplac{e                    
+                                       par QPRINT de QGPL.                                                                          
+                                     Cause . . . . . : L'imprimante QPRINT n'a pas {t{ trouv{e.  La file d'attente                  
+                                       en sortie a {t{ modifi{e pour le fichier imprimante en spoule QSYSPRT                        
+                                       (biblioth}que QSYS2928). Que faire . . : Proc{dez de l'une des fa\ons                        
+                                       suivantes, avant de relancer le programme : -- Modifiez ou substituez, par                   
+                                       la commande CHGPRTF (Modifier un fichier imprimante) ou OVRPRTF (Substituer                  
+                                       un fichier imprimante), le nom de l'imprimante pour le fichier imprimante en                 
+                                       spoule QSYSPRT de QSYS2928. -- Ajoutez ou cr{ez la configuration de                          
+                                       l'imprimante par la commande CRTDEVPRT (Cr{er une description d'unit{                        
+                                       imprimante).                                                                                 
+CPD4090    Diagnostic              10   28/08/23  11:58:23,108642  QDMCOPEN     QSYS        17B7     QC2IO       QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module de destination . . . :   QC2CRIC1                                                       
+                                     Proc{dure de destination  . :   _C_Open file                                                   
+                                     Instruction . . . . . . . . :   15                                                             
+                                     Message . . . . :   Imprimante QPRINT non trouv{e. File de sortie remplac{e                    
+                                       par QPRINT de QGPL.                                                                          
+                                     Cause . . . . . : L'imprimante QPRINT n'a pas {t{ trouv{e.  La file d'attente                  
+                                       en sortie a {t{ modifi{e pour le fichier imprimante en spoule QSYSPRT                        
+                                       (biblioth}que QSYS2928). Que faire . . : Proc{dez de l'une des fa\ons                        
+                                       suivantes, avant de relancer le programme : -- Modifiez ou substituez, par                   
+                                       la commande CHGPRTF (Modifier un fichier imprimante) ou OVRPRTF (Substituer                  
+                                       un fichier imprimante), le nom de l'imprimante pour le fichier imprimante en                 
+                                       spoule QSYSPRT de QSYS2928. -- Ajoutez ou cr{ez la configuration de                          
+                                       l'imprimante par la commande CRTDEVPRT (Cr{er une description d'unit{                        
+                                       imprimante).                                                                                 
+RNS9305    Ex{cution               00   28/08/23  11:58:23,200420  QRN4CPP      QDEVTOOLS   *STMT    AARI094G1   ARCAD_IUN   *STMT  
+ 5770SS1 V7R3M0 160422                        Display Job Log                      ARCADDEV  28/08/23  11:58:23 CEST     Page   14  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   523945       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   GRP4CPP                                                        
+                                     Proc{dure d'origine . . . . :   cleanup                                                        
+                                     Instruction . . . . . . . . :   19                                                             
+                                     Module de destination . . . :   AARI094M1                                                      
+                                     Proc{dure de destination  . :   YCREATEPGM                                                     
+                                     Instruction . . . . . . . . :   2359                                                           
+                                     Message . . . . :   Module XIUNMOD2 plac{ dans biblioth}que QTEMP. Gravit{                     
+                                       maximale 00. Cr{{ le 28/08/23 @ 11:58:23.                                                    
+                                     Cause . . . . . :   Le module XIUNMOD2 a {t{ cr{{ dans la biblioth}que QTEMP.                  
+                                       La gravit{ maximale de message en r{sultant {tait 00. La date et l'heure de                  
+                                       cr{ation du module sont 28/08/23 et 11:58:23.                                                
+CPC0904    Ex{cution               00   28/08/23  11:58:23,203378  QWCCCRVC     QSYS        0099     QRN4CPP     QDEVTOOLS   *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module de destination . . . :   GRP4CPP                                                        
+                                     Proc{dure de destination  . :   update_dtaara                                                  
+                                     Instruction . . . . . . . . :   8                                                              
+                                     Message . . . . :   Zone de donn{es RETURNCODE cr{{e dans biblioth}que QTEMP.                  
+CPC5D07    Ex{cution               00   28/08/23  11:58:23,241208  QBNBIND      QSYS        *STMT    AARI094G1   ARCAD_IUN   *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QBNBIND                                                        
+                                     Proc{dure d'origine . . . . :   QBNBIND__SendCompletionMessage                                 
+                                     Instruction . . . . . . . . :   7                                                              
+                                     Module de destination . . . :   AARI094M1                                                      
+                                     Proc{dure de destination  . :   YCREATEPGM                                                     
+                                     Instruction . . . . . . . . :   2437                                                           
+                                     Message . . . . :   Programme XIUNMOD2 cr{{ dans la biblioth}que QTEMP.                        
+                                     Cause . . . . . : La cr{ation du programme XIUNMOD2 dans la biblioth}que QTEMP                 
+                                       a abouti. Que faire . . . : Aucune action n'est requise.                                     
+CPF1015    Echappement             40   28/08/23  11:58:23,241958  QWCSRTVR     QSYS        00D0     AARI094G1   ARCAD_IUN   *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module de destination . . . :   AARI094M1                                                      
+                                     Proc{dure de destination  . :   YTRACESQL                                                      
+                                     Instruction . . . . . . . . :   3110                                                           
+                                     Message . . . . :   Zone de donn{es IUNZZZTRC non trouv{e dans QTEMP.                          
+                                     Que faire . . . : Corrigez le nom de la zone de donn{es, ou modifiez le nom de                 
+                                       la biblioth}que (param}tre DTAARA).  Renouvelez ensuite la demande.                          
+CPF1015    Echappement             40   28/08/23  11:58:23,242127  QWCSRTVR     QSYS        00D0     AARI094G1   ARCAD_IUN   *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module de destination . . . :   AARI094M1                                                      
+                                     Proc{dure de destination  . :   YEXECUTEPGM                                                    
+                                     Instruction . . . . . . . . :   1942                                                           
+                                     Message . . . . :   Zone de donn{es AIUNMODNM non trouv{e dans QTEMP.                          
+                                     Que faire . . . : Corrigez le nom de la zone de donn{es, ou modifiez le nom de                 
+                                       la biblioth}que (param}tre DTAARA).  Renouvelez ensuite la demande.                          
+CCR0010    Diagnostic              20   28/08/23  11:58:23,244429  CCMAIN       QDEVTOOLS   *STMT    CCMAIN      QDEVTOOLS   *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   CCERROR                                                        
+                                     Proc{dure d'origine . . . . :   SendErrorDebugViewNotFound                                     
+                                     Instruction . . . . . . . . :   12                                                             
+                                     Module de destination . . . :   CCMAIN                                                         
+                                     Proc{dure de destination  . :   _C_pep                                                         
+ 5770SS1 V7R3M0 160422                        Display Job Log                      ARCADDEV  28/08/23  11:58:23 CEST     Page   15  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   523945       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                     Instruction . . . . . . . . :   *N                                                             
+                                     Message . . . . :   La vue de d{bogage sp{cifi{e est introuvable.                              
+                                     Cause . . . . . :   La vue de d{bogage sp{cifi{e (*DFT) est introuvable dans                   
+                                       le module (QTEMP/XIUNMOD2(IUNMOD2)). Que faire . . . : Compilez @ nouveau le                 
+                                       programme avec l'option de vue de d{bogage appropri{e, puis relancez la                      
+                                       demande.                                                                                     
+CPF0001    Echappement             30   28/08/23  11:58:23,244442  CCMAIN       QDEVTOOLS   *STMT    QCMDEXC     QSYS        012F   
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   CCERROR                                                        
+                                     Proc{dure d'origine . . . . :   SendErrorCommandError                                          
+                                     Instruction . . . . . . . . :   6                                                              
+                                     Message . . . . :   Erreur trouv{e dans la commande ADDMODCCA.                                 
+                                     Cause . . . . . : Le syst}me a trouv{ des erreurs dans la commande. Que faire                  
+                                       . . . :   Consultez les messages pr{c{dents dans l'historique du travail.                    
+                                       Corrigez les erreurs, puis relancez la commande.  La substitution de *N au                   
+                                       nom de la commande signifie que ce nom n'a pas {t{ d{termin{ avant que                       
+                                       l'erreur ne soit d{tect{e.                                                                   
+CPF0006    Echappement             30   28/08/23  11:58:23,244494  QCMDEXC      QSYS        0277     AARI094G1   ARCAD_IUN   *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module de destination . . . :   AARI094M1                                                      
+                                     Proc{dure de destination  . :   YEXECUTEPGM                                                    
+                                     Instruction . . . . . . . . :   2021                                                           
+                                     Message . . . . :   Erreurs trouv{es dans la commande.                                         
+                                     Cause . . . . . : Si une partie de la commande a {t{ pass{e avec une longueur                  
+                                       erron{e, d'autres messages seront {mis @ la suite de l'analyse. Que faire .                  
+                                       . . : Consultez les messages pr{c{dents dans l'historique du travail.                        
+                                       Corrigez les erreurs, puis relancez la commande.                                             
+CPI3E04    Information             00   28/08/23  11:58:23,261655  QRWSARDB     QSYS        *STMT    QSQENDAG    QSYS        *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module d'origine  . . . . . :   QRWSARDB                                                       
+                                     Proc{dure d'origine . . . . :   DISCMSG                                                        
+                                     Instruction . . . . . . . . :   25420                                                          
+                                     Module de destination . . . :   QSQENDAG                                                       
+                                     Proc{dure de destination  . :   QSQENDAG                                                       
+                                     Instruction . . . . . . . . :   10045                                                          
+                                     Message . . . . :   Connexion @ la base de donn{es relationnelle ARCADDEV                      
+                                       termin{e.                                                                                    
+                                     Cause . . . . . : La connexion @ la base de donn{es relationnelle ARCADDEV                     
+                                       s'est termin{e.  La connexion utilise le nom de lieu {loign{ *LOCAL, le nom                  
+                                       d'unit{ *N, le nom de mode *N, le nom de lieu local *N, l'identificateur de                  
+                                       r{seau {loign{ *N, l'ID utilisateur AKUMAR et le nom de programme de                         
+                                       transaction *N. Cette connexion concerne le groupe d'activation 31 qui a                     
+                                       pour num{ro 31.                                                                              
+CPF9801    Echappement             40   28/08/23  11:58:23,266294  QLICKOBJ     QSYS        0255     AARI092C1   ARCAD_IUN   *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module de destination . . . :   AARI092C1                                                      
+                                     Proc{dure de destination  . :   AARI092C1                                                      
+                                     Instruction . . . . . . . . :   6200                                                           
+                                     Message . . . . :   Objet ZZSPLOUT non trouv{ dans la biblioth}que QTEMP.                      
+                                     Cause . . . . . : L'objet ZZSPLOUT, dans la biblioth}que QTEMP, type *FILE,                    
+                                       n'a pas {t{ trouv{ : le nom de la biblioth}que, le nom ou le type de l'objet                 
+                                       est incorrect.  Si le nom de la biblioth}que n'est pas indiqu{, il se peut                   
+ 5770SS1 V7R3M0 160422                        Display Job Log                      ARCADDEV  28/08/23  11:58:23 CEST     Page   16  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   523945       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                       que celle contenant l'objet ne figure pas dans la liste des biblioth}ques.                   
+                                       Que faire . . . : Modifiez le nom de la biblioth}que, le nom ou le type de                   
+                                       l'objet. Si le nom de la biblioth}que n'est pas indiqu{, pr{cisez-le et                      
+                                       renouvelez la demande.                                                                       
+CPC7301    Ex{cution               00   28/08/23  11:58:23,270626  QDDCPF       QSYS        056D     AARI092C1   ARCAD_IUN   *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module de destination . . . :   AARI092C1                                                      
+                                     Proc{dure de destination  . :   AARI092C1                                                      
+                                     Instruction . . . . . . . . :   6600                                                           
+                                     Message . . . . :   Fichier ZZSPLOUT cr{{ dans la biblioth}que QTEMP.                          
+CPC7305    Ex{cution               00   28/08/23  11:58:23,275102  QDDCPFM      QSYS        005B     AARI092C1   ARCAD_IUN   *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module de destination . . . :   AARI092C1                                                      
+                                     Proc{dure de destination  . :   AARI092C1                                                      
+                                     Instruction . . . . . . . . :   6600                                                           
+                                     Message . . . . :   Membre ZZSPLOUT ajout{ au fichier ZZSPLOUT de QTEMP.                       
+CPC3101    Ex{cution               00   28/08/23  11:58:23,276792  QDBCLRPF     QSYS        02B4     AARI092C1   ARCAD_IUN   *STMT  
+                                     Utilisateur d'origine . . . :   AKUMAR                                                         
+                                     Module de destination . . . :   AARI092C1                                                      
+                                     Proc{dure de destination  . :   AARI092C1                                                      
+                                     Instruction . . . . . . . . :   7200                                                           
+                                     Message . . . . :   Membre ZZSPLOUT du fichier ZZSPLOUT de QTEMP remis @                       
+                                       blanc.                                                                                       

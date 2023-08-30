@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<testcases>
+   <testcase doNotExecute="false" expectedAssertion="S" identifier="15" name="T1111_ADDITION" option="1" syncStatus="C">
+      <object attribute="" library="IUNDEMO1" name="MOD4" srcFile="" srcMemberName="" srcModuleName="" type="*MODULE"/>
+      <procedure dateformat="" keywords="" name="ADDITION" returnArrayDim="0" returnFlag="Y" returnedDecimal="2" returnedLength="5" returnedType="P" sequence="0">
+         <parameters>
+            <parameter arrDim="0" datalength="5" datatype="P" dateformat="" decimal="2" dslength="0" dsname="" keywords="" likeds="" name="P_FLD1" number="1" parametersequence="1" qualname="" subfieldnumber="0" subfieldtype="SA"/>
+            <parameter arrDim="0" datalength="5" datatype="P" dateformat="" decimal="2" dslength="0" dsname="" keywords="" likeds="" name="P_FLD2" number="2" parametersequence="2" qualname="" subfieldnumber="0" subfieldtype="SA"/>
+            <parameter arrDim="0" datalength="5" datatype="P" dateformat="" decimal="2" dslength="0" dsname="" keywords="" likeds="" name="Returned Value" number="0" parametersequence="3" subfieldnumber="1" subfieldtype="SA"/>
+         </parameters>
+      </procedure>
+      <variables/>
+      <mockVariables/>
+      <steps>
+         <before/>
+         <after/>
+      </steps>
+      <result hour="0" identifier="1" mil="0" min="0" sec="0" status="B">
+         <input><![CDATA[{"P_FLD1":5.0,"P_FLD2":5.0}]]></input>
+         <output><![CDATA[{"INPUT":{"P_FLD1":5.0,"P_FLD2":5.0},"OUTPUT":{"Rtn_xxVar":10.0}}]]></output>
+         <compare><![CDATA[{"INPUT":{"P_FLD1":"*EQ","P_FLD2":"*EQ"},"OUTPUT":{"Rtn_xxVar":"*EQ"}}]]></compare>
+      </result>
+   </testcase>
+</testcases>
